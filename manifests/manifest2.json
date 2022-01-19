@@ -1,0 +1,143 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://charlie-morgan.github.io/CharlieProject/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Charlie's Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Some random images put together for a course",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "British Library",
+  "sequences" : [ {
+    "@id" : "http://d9bc2380-6b0c-4f19-9b1a-f50f7884137a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3592d1c5-83a5-4fb3-a8fd-5ce921cbbfee",
+      "@type" : "sc:Canvas",
+      "label" : "cover",
+      "height" : 7020,
+      "width" : 4986,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4de3a1b4-8db7-4e31-b4bb-357bb4266975",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100055442748.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100055442748.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 7020,
+          "width" : 4986
+        },
+        "on" : "http://3592d1c5-83a5-4fb3-a8fd-5ce921cbbfee"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://50ac4954-5ad6-4a02-bc3d-6bc98094daf4",
+      "@type" : "sc:Canvas",
+      "label" : "talmud",
+      "height" : 6752,
+      "width" : 4534,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://24ad7638-fdb3-4897-80f0-192393243ace",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100055442748.0x000009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100055442748.0x000009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6752,
+          "width" : 4534
+        },
+        "on" : "http://50ac4954-5ad6-4a02-bc3d-6bc98094daf4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://38727dc5-b7f2-4990-bce1-91be6d6a634d",
+      "@type" : "sc:Canvas",
+      "label" : "bengali",
+      "height" : 4171,
+      "width" : 2227,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5866b15d-15b7-4af8-b0e0-e598bd9a1c0f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054634033.0x000024/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054634033.0x000024",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4171,
+          "width" : 2227
+        },
+        "on" : "http://38727dc5-b7f2-4990-bce1-91be6d6a634d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b1861f31-6066-4323-9883-7f6651aa727a",
+      "@type" : "sc:Canvas",
+      "label" : "music",
+      "height" : 1831,
+      "width" : 1350,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5317b883-4886-41d2-91ed-196dd04d7025",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100049665975.0x000007/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100049665975.0x000007",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1831,
+          "width" : 1350
+        },
+        "on" : "http://b1861f31-6066-4323-9883-7f6651aa727a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
