@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://charlie-morgan.github.io/CharlieProject/annotations/c9605ae2783e70f773445cb8cc8d4057.json" ],
+  "@id" : "https://charlie-morgan.github.io/CharlieProject/annotations/collection.json",
+  "label" : "All annotations loaded in charlie-morgan/CharlieProject project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
